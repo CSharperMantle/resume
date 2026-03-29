@@ -24,7 +24,7 @@ jobs:
         run: make dist
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: pdf
+          path: dist
       - uses: actions/deploy-pages@v4
         id: deployment
         
