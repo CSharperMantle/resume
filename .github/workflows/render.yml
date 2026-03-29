@@ -20,6 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: typst-community/setup-typst@v5
+      - name: Install fonts
+        run: sudo apt install fonts-noto-cjk fonts-noto-cjk-extra
       - name: Render
         run: make dist
       - uses: actions/upload-pages-artifact@v3
@@ -27,4 +29,3 @@ jobs:
           path: dist
       - uses: actions/deploy-pages@v4
         id: deployment
-        
