@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历 / Resume | Mantle's Potato Bakery</title>
+</head>
+
+<body>
+    <main>
+        <h1>简历 / <span lang="en">Resume</span></h1>
+        <section>
+            <ul>
+                <!-- @PDF_ENTRIES@ -->
+            </ul>
+        </section>
+        <section>
+            <p>
+                该页面及列出的 PDF 文件由 <a href="https://github.com/CSharperMantle/resume">CSharperMantle/resume</a> 自动生成。
+            </p>
+            <p lang="en">
+                This page and the listed PDF files are automatically generated from <a
+                    href="https://github.com/CSharperMantle/resume">CSharperMantle/resume</a>.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
