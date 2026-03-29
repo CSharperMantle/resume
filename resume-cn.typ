@@ -1,6 +1,6 @@
-#import "@preview/fontawesome:0.5.0": *
-#import "@preview/linguify:0.4.2": *
-#import "@preview/cuti:0.2.1": show-cn-fakebold
+#import "@preview/fontawesome:0.6.0": *
+#import "@preview/linguify:0.5.0": *
+#import "@preview/cuti:0.4.0": show-cn-fakebold
 
 #show: show-cn-fakebold
 
@@ -26,7 +26,7 @@
 
 #show heading.where(depth: 1): set text(size: 18pt)
 
-#show heading.where(level: 2): set block(above: 1em, below: 0.75em)
+#show heading.where(level: 2): set block(above: 1em, below: 0.5em)
 
 #set page(margin: (x: 0.9cm, y: 1.3cm))
 
@@ -42,9 +42,9 @@
   text(size: 1.1em)[#underline(evade: false)[#body]]
 }
 
-#let large-v-skip() = v(0.75em)
+#let large-v-skip() = v(0em)
 
-#let small-v-skip() = v(0.25em)
+#let small-v-skip() = v(0.1em)
 
 #let continues-cv-page() = {
   place(
