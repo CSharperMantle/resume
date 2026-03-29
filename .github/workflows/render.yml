@@ -21,7 +21,25 @@ jobs:
       - uses: actions/checkout@v4
       - uses: typst-community/setup-typst@v5
       - name: Install fonts
-        run: sudo apt-get install fonts-noto-cjk fonts-noto-cjk-extra fonts-font-awesome
+        run: |
+          echo 'Installing Noto Sans CJK...'
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
+
+          echo 'Installing Source Han Serif SC...'
+          wget -O /tmp/09_SourceHanSerifSC.zip https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/09_SourceHanSerifSC.zip
+          mkdir -p /tmp/09_SourceHanSerifSC
+          unzip -o /tmp/09_SourceHanSerifSC.zip -d /tmp/09_SourceHanSerifSC
+          sudo install -vDm644 -t /usr/share/fonts/opentype/source-han-serif-sc /tmp/09_SourceHanSerifSC/OTF/SimplifiedChinese/*.otf
+          rm -rf /tmp/09_SourceHanSerifSC*
+
+          echo 'Installing FontAwesome 7.2.0...'
+          wget -O /tmp/fontawesome-free-7.2.0-desktop.zip https://use.fontawesome.com/releases/v7.2.0/fontawesome-free-7.2.0-desktop.zip
+          unzip -o /tmp/fontawesome-free-7.2.0-desktop.zip -d /tmp
+          sudo install -vDm644 -t /usr/share/fonts/opentype/fontawesome /tmp/fontawesome-free-7.2.0-desktop/otfs/*.otf
+          rm -rf /tmp/fontawesome-free-7.2.0-desktop*
+
+          echo 'Refreshing font cache...'
+          sudo fc-cache -f -v
       - name: Render
         run: make dist
       - uses: actions/upload-pages-artifact@v3
