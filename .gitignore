@@ -1,1 +1,6 @@
 **/*.pdf
+
+.agent/
+.claude/
+CLAUDE.md
+AGENTS.md
