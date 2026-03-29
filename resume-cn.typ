@@ -100,7 +100,7 @@
 有一定逆向工程、二进制漏洞分析、嵌入式安全能力，较为熟悉 x86、ARM/AArch64、RISC-V 与多种嵌入式平台的编程与软件分析。 \
 - #link("https://ctftime.org/event/2276")[D#super[3]CTF 2024] *逆向工程方向赛题命制* #h(1fr) 2024/04
 - #link("http://www.ciscn.cn/announcement/view/357")[第十七届全国大学生信息安全竞赛] #sym.dot.c 创新实践能力赛 *团队三等奖* #h(1fr) 2024/07
-- #link("https://web.archive.org/web/20250419072500/https://flare-on11.ctfd.io/scoreboard")[Google Cloud FLARE-On 11] Reverse Engineering Challenge *Finisher \#168* #h(1fr) 2024/09
+- #link("https://flare-on.com/2024.html#:~:text=Rong%20Bao")[Google Cloud FLARE-On 11] Reverse Engineering Challenge *Finisher \#168* #h(1fr) 2024/09
 - #link("https://oss.moocollege.com/26024/edit/m44by2cO_1731295461010.pdf")[第七届浙江省大学生网络与信息安全竞赛] #sym.dot.c 技能挑战赛 *团队一等奖* #h(1fr) 2024/11
 - #link("https://oss.moocollege.com/28179/edit/XTTyoK8C_1764054076954.pdf")[第八届浙江省大学生网络与信息安全竞赛] #sym.dot.c 技能挑战赛 *团队一等奖* #h(1fr) 2025/11
 - #link("https://www.mozilla.org/en-US/security/advisories/mfsa2025-92/#CVE-2025-14330")[CVE-2025-14330] *发现者、修复者*，#link("https://www.mozilla.org/en-US/security/advisories/mfsa2025-92/#CVE-2025-14324")[CVE-2025-14324] *修复者* #h(1fr) 2025/12
@@ -126,7 +126,7 @@
 #link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++、Python、Rust 等 \
 - 作为学生参与 #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[OSPP 2025 项目]； #h(1fr) 2025/07 -- 2025/10 \
 - 修缮维护 RV64 JIT 后端，显著提升测试通过率，并引入多项性能改进； #h(1fr) 2025/07 -- \
-- 作为活跃维护者获得 #link("https://bugzilla.mozilla.org/user_profile?user_id=774743")[Level 3 Commit Access] *核心产品权限*； #h(1fr) 2026/03 \
+- 作为活跃维护者获得 #link("https://bugzil.la/2020656")[Level 3 Commit Access] *核心产品权限*； #h(1fr) 2026/03 \
 - 积极实现移植 #link("https://bugzil.la/2023167")[Gecko Profiler 至 LoongArch64 与 RISC-V 平台]。#h(1fr) 2026/03 --
 
 #small-v-skip()
@@ -142,7 +142,7 @@
 #small-v-skip()
 
 #link("https://github.com/CSharperMantle/binja_arch_catbert")[#underline[CSharperMantle/binja_arch_catbert]] -- Python、汇编语言、BN LLIL \
-将一种自定义栈机 (Catbert VM) 字节码提升至中间表示并反编译。 #h(1fr) 2024/11
+将一种自定义栈机（Catbert VM）字节码提升至中间表示并反编译。 #h(1fr) 2024/11
 
 #small-v-skip()
 
