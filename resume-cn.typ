@@ -81,7 +81,7 @@
 == #fa-icon("school") 教育经历
 #chiline()
 
-*杭州电子科技大学* #h(1fr) 2023/09 -- 至今 \
+*杭州电子科技大学* #h(1fr) 2023/09 -- \
 卓越学院，计算机科学英才班 \
 
 #large-v-skip()
@@ -123,26 +123,26 @@
 == #fa-icon("code-fork") 开源贡献经历
 #chiline()
 
-#link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++、Python、Rust 等 #h(1fr) 2025/07 -- 至今 \
-#link("https://bugzilla.mozilla.org/user_profile?user_id=774743")[Level 3 Commit Access]（*核心产品权限*），SpiderMonkey RISC-V JIT 活跃维护者。 #h(1fr) 贡献者 \
-- 作为学生中选 #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[OSPP 2025 项目]；\
-- 维护 RV64 JIT，使测试通过率达到与 x86 等一级架构同等水平；\
-- 正积极推动移植 #link("https://bugzil.la/2023167")[Gecko Profiler 至 LoongArch64 与 RISC-V 平台]。
+#link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++、Python、Rust 等 \
+- 作为学生参与 #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[OSPP 2025 项目]； #h(1fr) 2025/07 -- 2025/10 \
+- 修缮维护 RV64 JIT 后端，显著提升测试通过率，并引入多项性能改进； #h(1fr) 2025/07 -- \
+- 作为活跃维护者获得 #link("https://bugzilla.mozilla.org/user_profile?user_id=774743")[Level 3 Commit Access] *核心产品权限*； #h(1fr) 2026/03 \
+- 积极实现移植 #link("https://bugzil.la/2023167")[Gecko Profiler 至 LoongArch64 与 RISC-V 平台]。#h(1fr) 2026/03 --
 
 #small-v-skip()
 
-#link("https://aosc.io/")[#underline[Anthon Open Source Community]] -- Shell Script #h(1fr) 2025/09 -- 至今 \
-负责多个 Mozilla、版本管理、系统管理软件包的补丁与打包工作。#h(1fr) 贡献者
+#link("https://aosc.io/")[#underline[Anthon Open Source Community]] -- Shell Script \
+负责多个 Mozilla、版本管理、系统管理软件包的补丁与打包工作。 #h(1fr) 2025/09 -- 至今
 
 #small-v-skip()
 
-#link("https://gitlab.com/surfer-project/surfer")[#underline[surfer-project/surfer]] -- Rust #h(1fr) 2025/04 -- 2025/05 \
-为开源波形查看器 Surfer 实现目前已稳定公开的 LoongArch64 ISA 第一卷的解码功能。 #h(1fr) 贡献者
+#link("https://gitlab.com/surfer-project/surfer")[#underline[surfer-project/surfer]] -- Rust \
+为开源波形查看器 Surfer 实现目前已稳定公开的 LoongArch64 ISA 第一卷的解码功能。#h(1fr) 2025/04 -- 2025/05
 
 #small-v-skip()
 
-#link("https://github.com/CSharperMantle/binja_arch_catbert")[#underline[binja_arch_catbert]] -- Python、汇编语言、BN LLIL #h(1fr) 2024/11 \
-将一种自定义栈机 (Catbert VM) 字节码提升至中间表示并反编译的插件，适用于 Binary Ninja 反编译软件。 #h(1fr) 作者
+#link("https://github.com/CSharperMantle/binja_arch_catbert")[#underline[CSharperMantle/binja_arch_catbert]] -- Python、汇编语言、BN LLIL \
+将一种自定义栈机 (Catbert VM) 字节码提升至中间表示并反编译。 #h(1fr) 2024/11
 
 #small-v-skip()
 
