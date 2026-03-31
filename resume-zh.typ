@@ -108,7 +108,7 @@
 #small-v-skip()
 
 #skill-header[应用开发] \
-- Polyglot，能够使用 C/Rust/TypeScript 等多种语言进行底层与上层应用开发；
+- Polyglot，能够使用 C/Rust/TypeScript 等多种语言进行应用开发；
 - 具有一定全栈和系统开发能力；
 - 有使用 Git/Jujutsu、GitHub/Phabricator/邮件列表等工具进行协作的经验，较为熟悉现代开源项目常见在线协作流程。
 
@@ -116,14 +116,14 @@
 
 #skill-header[其他] \
 - CET6 667 分，*TOEFL iBT 117 分*； #h(1fr) 2024 -- 2025
-- 较强的学习能力、检索能力和团队沟通能力。
+- 较强的学习能力、检索能力和团队合作能力。
 
 #large-v-skip()
 
 == #fa-icon("code-fork") 开源贡献经历
 #chiline()
 
-#link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++、Python、Rust 等 \
+#link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++、Python 等 \
 - 作为学生参与 #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[OSPP 2025 项目]； #h(1fr) 2025/07 -- 2025/10 \
 - 修缮维护 RV64 JIT 后端，显著提升测试通过率，并引入多项性能改进； #h(1fr) 2025/07 -- \
 - 作为活跃维护者获得 #link("https://bugzil.la/2020656")[Level 3 Commit Access] *核心产品权限*； #h(1fr) 2026/03 \
@@ -132,7 +132,7 @@
 #small-v-skip()
 
 #link("https://aosc.io/")[#underline[Anthon Open Source Community]] -- Shell Script \
-负责多个 Mozilla、版本管理、系统管理软件包的补丁与打包工作。 #h(1fr) 2025/09 -- 至今
+负责多个 Mozilla、版本管理、系统管理软件包的补丁与打包工作。 #h(1fr) 2025/09 --
 
 #small-v-skip()
 
