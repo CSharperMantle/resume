@@ -9,6 +9,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  attestations: write
 
 concurrency:
   group: pages
@@ -42,6 +43,10 @@ jobs:
           sudo fc-cache -f -v
       - name: Render
         run: make dist
+      - name: Attest
+        uses: actions/attest@v4
+        with:
+          subject-path: '${{ github.workspace }}/dist/**/*'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
