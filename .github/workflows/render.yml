@@ -47,7 +47,6 @@ jobs:
       - name: Attest
         uses: actions/attest@v4
         with:
-          subject-name: '${{ github.repository }}'
           subject-path: '${{ github.workspace }}/dist/**/*'
           push-to-registry: true
       - uses: actions/upload-pages-artifact@v3
