@@ -17,7 +17,6 @@
   [
     #it#super(
       typographic: true,
-      baseline: auto,
       size: 0.5em,
       [#fa-icon("arrow-up-right-from-square")]
     )
@@ -128,6 +127,11 @@
 - 修缮维护 RV64 JIT 后端，显著提升测试通过率，并引入多项性能改进； #h(1fr) 2025/07 -- \
 - 作为活跃维护者获得 #link("https://bugzil.la/2020656")[Level 3 Commit Access] *核心产品权限*； #h(1fr) 2026/03 \
 - 积极实现移植 #link("https://bugzil.la/2023167")[Gecko Profiler 至 LoongArch64 与 RISC-V 平台]。#h(1fr) 2026/03 --
+
+#small-v-skip()
+
+#link("github.com/llvm/llvm-project/")[#underline[The LLVM Project]] -- C++、汇编语言 \
+- #link("https://github.com/llvm/llvm-project/pull/195595")[实现了] LoongArch 上的栈冲突保护， #link("https://github.com/llvm/llvm-project/pull/195456")[修复了] RISC-V 上该功能的代码生成错误 #h(1fr) 2026/05
 
 #small-v-skip()
 

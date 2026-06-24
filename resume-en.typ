@@ -11,7 +11,6 @@
     height: 0pt,
     super(
       typographic: true,
-      baseline: -1.45em,
       size: 0.5em,
       fa-icon("arrow-up-right-from-square")
     )
@@ -124,13 +123,18 @@ Skilled in reverse engineering, binary vulnerability analysis, and embedded syst
 
 #small-v-skip()
 
+#link("github.com/llvm/llvm-project/")[#underline[The LLVM Project]] -- C++, Assembly \
+- #link("https://github.com/llvm/llvm-project/pull/195595")[Implemented] LoongArch stack clash protection and #link("https://github.com/llvm/llvm-project/pull/195456")[fixed] that of RISC-V #h(1fr) 2026/05
+
+#small-v-skip()
+
 #link("https://aosc.io/")[#underline[Anthon Open Source Community]] -- Shell Script \
 Maintained multiple Mozilla, VCS, and sysadmin packages and patches. #h(1fr) 2025/09 --
 
 #small-v-skip()
 
 #link("https://gitlab.com/surfer-project/surfer")[#underline[surfer-project/surfer]] -- Rust \
-Implemented and upstreamed the decoder of LoongArch64 ISA Volume 1 for Surfer, a FOSS waveform viewer. #h(1fr) 2025/04 -- 2025/05
+Implemented the decoder of LoongArch64 ISA Volume 1 for Surfer, a FOSS waveform viewer. #h(1fr) 2025/04 -- 2025/05
 
 #small-v-skip()
 
