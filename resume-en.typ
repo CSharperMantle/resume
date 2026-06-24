@@ -84,7 +84,7 @@ Computer Science, Zhuoyue Honors School \
 
 #skill-header[Computer systems] \
 Experienced with x86 ISA and assembly-level development, familiar with RISC-style ISAs, and has hands-on experience with RISC-V and LoongArch micro-architectural implementations. \
-- #link("https://ysyx.oscc.cc/en/")["One Student, One Chip" Program], Cohort 6, Group B. Student ID: 23060288. (#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[log], #link("https://github.com/CSharperMantle/ics2023")[repo]) #h(1fr) 2024 -- 2025
+- #link("https://ysyx.oscc.cc/en/")["One Student, One Chip" Program], Cohort 6, Group B (former). Student ID: 23060288. (#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[log], #link("https://github.com/CSharperMantle/ics2023")[repo]) #h(1fr) 2024 -- 2025
 - #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] CPU Designing Contest "Loongson Cup" *Team Third Prize* #h(1fr) 2025/08\
 
 #small-v-skip()
@@ -112,7 +112,7 @@ Skilled in reverse engineering, binary vulnerability analysis, and embedded syst
 
 #large-v-skip()
 
-== #fa-icon("code-fork") OSS Contributions
+== #fa-icon("code-fork") Open-Source Contributions
 #chiline()
 
 #link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++, Python \

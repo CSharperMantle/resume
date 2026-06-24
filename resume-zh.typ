@@ -90,7 +90,7 @@
 
 #skill-header[体系结构] \
 对 x86 ISA 与汇编级开发有一定经验，对 RISC 风格 ISA 有一定了解，有 RISC-V 与 LoongArch 微架构实现经验。 \
-- 第六期“一生一芯” B 组学员，学号：23060288。（#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[学习记录]，#link("https://github.com/CSharperMantle/ics2023")[代码仓库]） #h(1fr) 2024 -- 2025
+- 前第六期“一生一芯” B 组学员，学号：23060288。（#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[学习记录]，#link("https://github.com/CSharperMantle/ics2023")[代码仓库]） #h(1fr) 2024 -- 2025
 - #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] “龙芯杯” *团队赛三等奖* #h(1fr) 2025/08\
 
 #small-v-skip()
