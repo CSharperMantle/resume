@@ -11,6 +11,9 @@ trim_trailing_whitespace = true
 [.github/**]
 end_of_line = lf
 
+[*.yml]
+indent_size = 2
+
 [*.typ]
 indent_size = 2
 
