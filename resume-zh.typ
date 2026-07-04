@@ -53,7 +53,7 @@
     float: true,
     scope: "parent",
     [
-      #text(fill: gray)[... continues on the next page ...]
+      #text(fill: gray)[... 接下页 ...]
     ],
   )
 }
@@ -71,6 +71,8 @@
 )
 
 = 鲍溶
+
+#continues-cv-page()
 
 #link("mailto:me@csmantle.top")[me\@csmantle.top] |
 #link("https://github.com/CSharperMantle")[github.com/CSharperMantle] | #link("https://csmantle.top")[csmantle.top]

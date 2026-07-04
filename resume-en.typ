@@ -66,6 +66,8 @@
 
 = Rong Bao
 
+#continues-cv-page()
+
 he/him | #link("mailto:me@csmantle.top")[me\@csmantle.top] |
 #link("https://github.com/CSharperMantle")[github.com/CSharperMantle] | #link("https://csmantle.top")[csmantle.top]
 
