@@ -35,9 +35,9 @@
   text(size: 1.1em)[#underline[#body]]
 }
 
-#let large-v-skip() = v(0.75em)
+#let large-v-skip() = v(1em)
 
-#let small-v-skip() = v(0.25em)
+#let small-v-skip() = v(0.5em)
 
 #let continues-cv-page() = {
   place(
