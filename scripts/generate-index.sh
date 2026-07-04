@@ -2,8 +2,8 @@
 
 set -eu
 
-PDF_ENTRIES_PLACEHOLDER='<!-- @PDF_ENTRIES@ -->'
-DATE_PLACEHOLDER='<!-- @DATE@ -->'
+PDF_ENTRIES_PLACEHOLDER='@@PDF_ENTRIES@@'
+DATE_PLACEHOLDER='@@DATE@@'
 
 entries=""
 for f in $(find . -maxdepth 1 -name '*.pdf' -type f | sort); do

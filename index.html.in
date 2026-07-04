@@ -12,7 +12,7 @@
         <h1>简历 / <span lang="en">Resume</span></h1>
         <section>
             <ul>
-                <!-- @PDF_ENTRIES@ -->
+                @@PDF_ENTRIES@@
             </ul>
         </section>
         <section>
@@ -26,7 +26,7 @@
         </section>
     </main>
     <footer>
-        <p><time datetime="<!-- @DATE@ -->"><!-- @DATE@ --></time></p>
+        <p><time datetime="@@DATE@@">@@DATE@@</time></p>
     </footer>
 </body>
 
