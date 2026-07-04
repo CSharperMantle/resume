@@ -25,6 +25,9 @@
             </p>
         </section>
     </main>
+    <footer>
+        <p><time datetime="<!-- @DATE@ -->"><!-- @DATE@ --></time></p>
+    </footer>
 </body>
 
 </html>
