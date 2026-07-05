@@ -13,37 +13,35 @@
   ),
 )
 
+#let large-v-skip() = v(1em)
+
+#let small-v-skip() = v(0.5em)
+
 #show link: it => {
-  [
-    #it#super(
-      typographic: true,
-      size: 0.5em,
-      [#fa-icon("arrow-up-right-from-square")]
-    )
-  ]
+  underline(it)
 }
 
-#show heading.where(depth: 1): set text(size: 18pt)
+#show heading.where(depth: 1): it => {
+  set text(size: 20pt)
+  it
+}
 
-#show heading.where(level: 2): set block(above: 1em, below: 0.5em)
+#show heading.where(level: 2): it => {
+  set text(size: 1.2em)
+  set block(above: 1em, below: 0.5em)
+  it
+  v(-7pt)
+  line(length: 100%)
+  v(0.25em)
+}
 
 #set page(margin: (x: 0.9cm, y: 1.3cm))
 
 #set par(justify: true)
 
-#let chiline() = {
-  v(-3pt)
-  line(length: 100%)
-  v(-5pt)
-}
-
 #let skill-header(body) = {
-  text(size: 1.1em)[#underline(evade: false)[#body]]
+  text(size: 1.2em, strong(body))
 }
-
-#let large-v-skip() = v(1em)
-
-#let small-v-skip() = v(0.5em)
 
 #let continues-cv-page() = {
   place(
@@ -80,7 +78,6 @@
 #large-v-skip()
 
 == #fa-icon("school") 教育经历
-#chiline()
 
 *杭州电子科技大学* #h(1fr) 2023/09 -- \
 卓越学院，计算机科学英才班 \
@@ -88,7 +85,6 @@
 #large-v-skip()
 
 == #fa-icon("lightbulb") 个人技能
-#chiline()
 
 #skill-header[体系结构] \
 对 x86 ISA 与汇编级开发有一定经验，对 RISC 风格 ISA 有一定了解，有 RISC-V 与 LoongArch 微架构实现经验。 \
@@ -122,9 +118,8 @@
 #large-v-skip()
 
 == #fa-icon("code-fork") 开源贡献经历
-#chiline()
 
-#link("https://github.com/mozilla-firefox/firefox")[#underline[Mozilla Firefox]] -- C++、Python 等 \
+#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] -- C++、Python 等 \
 - 作为学生参与 #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[OSPP 2025 项目]； #h(1fr) 2025/07 -- 2025/10 \
 - 修缮维护 RV64 JIT 后端，显著提升测试通过率，并引入多项性能改进； #h(1fr) 2025/07 -- \
 - 作为活跃维护者获得 #link("https://bugzil.la/2020656")[Level 3 Commit Access] *核心产品权限*； #h(1fr) 2026/03 \
@@ -132,24 +127,24 @@
 
 #small-v-skip()
 
-#link("github.com/llvm/llvm-project/")[#underline[The LLVM Project]] -- C++、汇编语言 \
+#link("github.com/llvm/llvm-project/")[*The LLVM Project*] -- C++、汇编语言 \
 - #link("https://github.com/llvm/llvm-project/pull/195595")[实现了] LoongArch 上的栈冲突保护， #link("https://github.com/llvm/llvm-project/pull/195456")[修复了] RISC-V 上该功能的代码生成错误 #h(1fr) 2026/05
 
 #small-v-skip()
 
-#link("https://aosc.io/")[#underline[Anthon Open Source Community]] -- Shell Script \
+#link("https://aosc.io/")[*Anthon Open Source Community*] -- Shell Script \
 负责多个 Mozilla、版本管理、系统管理软件包的补丁与打包工作。 #h(1fr) 2025/09 --
 
 #small-v-skip()
 
-#link("https://gitlab.com/surfer-project/surfer")[#underline[surfer-project/surfer]] -- Rust \
+#link("https://gitlab.com/surfer-project/surfer")[*surfer-project/surfer*] -- Rust \
 为开源波形查看器 Surfer 实现目前已稳定公开的 LoongArch64 ISA 第一卷的解码功能。#h(1fr) 2025/04 -- 2025/05
 
 #small-v-skip()
 
-#link("https://github.com/CSharperMantle/binja_arch_catbert")[#underline[CSharperMantle/binja_arch_catbert]] -- Python、汇编语言、BN LLIL \
+#link("https://github.com/CSharperMantle/binja_arch_catbert")[*CSharperMantle/binja_arch_catbert*] -- Python、汇编语言、BN LLIL \
 将一种自定义栈机（Catbert VM）字节码提升至中间表示并反编译。 #h(1fr) 2024/11
 
 #small-v-skip()
 
-#link("https://github.com/users/CSharperMantle/achievements/mars-2020-contributor")[#underline[GitHub Mars 2020 Contributor]] #h(1fr) 2021/04
+#link("https://github.com/users/CSharperMantle/achievements/mars-2020-contributor")[*GitHub Mars 2020 Contributor*] #h(1fr) 2021/04
