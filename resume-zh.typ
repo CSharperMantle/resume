@@ -81,7 +81,7 @@
 
 == #fa-icon("school") 教育经历
 
-*杭州电子科技大学* #h(1fr) 2023/09 -- \
+*杭州电子科技大学* #h(1fr) 2023/09-- \
 卓越学院，计算机科学英才班 \
 
 #large-v-skip()
@@ -90,7 +90,7 @@
 
 #skill-header[计算机系统] \
 对 x86 ISA 与汇编级开发有一定经验，对 RISC 风格 ISA 与其代码生成、机器相关优化有一定了解，有 RISC-V 与 LoongArch 微架构实现经验。
-- 前第六期“一生一芯” B 组学员，学号：23060288（#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[学习记录]，#link("https://github.com/CSharperMantle/ics2023")[代码仓库]） #h(1fr) 2024 -- 2025
+- 前第六期“一生一芯” B 组学员，学号：23060288（#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[学习记录]，#link("https://github.com/CSharperMantle/ics2023")[代码仓库]） #h(1fr) 2024--2025
 - #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] “龙芯杯” *团队赛三等奖* #h(1fr) 2025/08
 
 #small-v-skip()
@@ -114,7 +114,7 @@
 #small-v-skip()
 
 #skill-header[其他]
-- CET6 667 分，*TOEFL iBT 117 分* #h(1fr) 2024 -- 2025
+- CET6 667 分，*TOEFL iBT 117 分* #h(1fr) 2024--2025
 - 2024--2025 学年*浙江省政府奖学金* #h(1fr) 2025/12
 - 较强的学习能力、检索能力和团队合作能力
 
@@ -122,49 +122,49 @@
 
 == #fa-icon("code-fork") 开源贡献
 
-#link("https://summer-ospp.ac.cn/")[*开源之夏（OSPP）2025*] -- C++ \
+#link("https://summer-ospp.ac.cn/")[*开源之夏（OSPP）2025*] --- C++ \
 作为#link("https://aosc.io/about")[安同开源社区]学员成功结项。 \
-- #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[复活] SpiderMonkey RV64 JIT 后端 #h(1fr) 2025/07 -- 2025/10
-- 维护包括 Mozilla 家族、版本控制、系统管理等多个类别软件的打包流程与补丁集 #h(1fr) 2025/09 --
+- #link("https://summer-ospp.ac.cn/org/prodetail/25f3e0428")[复活] SpiderMonkey RV64 JIT 后端 #h(1fr) 2025/07--2025/10
+- 维护包括 Mozilla 家族、版本控制、系统管理等多个类别软件的打包流程与补丁集 #h(1fr) 2025/09--
 
 #small-v-skip()
 
-#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] -- C++、Python 等 \
+#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] --- C++、Python 等 \
 SpiderMonkey {riscv,loong}64 JIT 编译器后端维护者。
 - 作为活跃贡献者获得 #link("https://bugzil.la/2020656")[Level 3 Commit Access] 权限 #h(1fr) 2026/03
-- 进行中工作：#link("https://bugzil.la/2023167")[移植 Gecko Profiler 至 LA64 与 RV64 平台] #h(1fr) 2026/03 --
+- 进行中工作：#link("https://bugzil.la/2023167")[移植 Gecko Profiler 至 LA64 与 RV64 平台] #h(1fr) 2026/03--
 
 #small-v-skip()
 
-#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] -- C++、汇编语言
+#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++、汇编语言
 - #link("https://github.com/llvm/llvm-project/pull/195595")[实现了] LoongArch 上的栈冲突保护（SCP）功能 #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/195456")[修复了] RISC-V 上 SCP 中的一处代码生成错误 #h(1fr) 2026/05
-- #link("https://github.com/llvm/llvm-project/pull/206321")[发现]、#link("https://github.com/llvm/llvm-project/pull/196940")[修复]了 LoongArch 后端与 LLD 中的若干重定位处理错误
+- #link("https://github.com/llvm/llvm-project/pull/206321")[发现]、#link("https://github.com/llvm/llvm-project/pull/196940")[修复]了 LoongArch 后端与 LLD 中的若干重定位处理错误 #h(1fr) 2026/05--2026/07
 
 #small-v-skip()
 
-#link("https://www.kernel.org/")[*The Linux Kernel*] -- C
+#link("https://www.kernel.org/")[*The Linux Kernel*] --- C
 - #link("https://lore.kernel.org/loongarch/20260704135932.4072912-1-rong.bao@csmantle.top/")[报告]了 LoongArch 平台上处理器 Package ID 回显错误的问题 #h(1fr) 2026/01
 - #link("https://lore.kernel.org/loongarch/20260413100412.2313688-1-rong.bao@csmantle.top/")[修复]了 LoongArch 上 perf(1) 中的一个无效 free 错误 #h(1fr) 2026/04
 
 #small-v-skip()
 
-#link("https://github.com/CSharperMantle/valgrind-loongarch64")[*CSharperMantle/valgrind-loongarch64*] -- C \
+#link("https://github.com/CSharperMantle/valgrind-loongarch64")[*CSharperMantle/valgrind-loongarch64*] --- C \
 为前人的 Valgrind LoongArch 移植版本新增了 SIMD 扩展（LSX）与高级 SIMD 扩展（LASX）指令的解析、插桩与审计功能。 #h(1fr) 2026/01
 
 #small-v-skip()
 
-#link("https://gitlab.com/surfer-project/surfer")[*surfer-project/surfer*] -- Rust \
-为开源波形查看器 Surfer 实现了《龙芯架构参考手册·卷一》中所有指令的解码器。#h(1fr) 2025/04 -- 2025/05
+#link("https://gitlab.com/surfer-project/surfer")[*surfer-project/surfer*] --- Rust \
+为开源波形查看器 Surfer 实现了《龙芯架构参考手册·卷一》中所有指令的解码器。#h(1fr) 2025/04--2025/05
 
 #small-v-skip()
 
-#link("https://github.com/CSharperMantle/binja_arch_catbert")[*CSharperMantle/binja_arch_catbert*] -- Python、汇编语言、BN LLIL \
+#link("https://github.com/CSharperMantle/binja_arch_catbert")[*CSharperMantle/binja_arch_catbert*] --- Python、汇编语言、BN LLIL \
 为 Binary Ninja 实现了一种栈机（Catbert VM）的字节码提升功能。 #h(1fr) 2024/11
 
 #small-v-skip()
 
-#link("https://github.com/CSharperMantle/periotrisjs")[*CSharperMantle/periotrisjs*] -- TypeScript、React \
+#link("https://github.com/CSharperMantle/periotrisjs")[*CSharperMantle/periotrisjs*] --- TypeScript、React \
 编写了一款俄罗斯方块游戏，用于辅助元素周期表的记忆与学习。 #h(1fr) 2021/07
 
 #small-v-skip()
