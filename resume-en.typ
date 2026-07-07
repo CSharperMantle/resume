@@ -139,7 +139,7 @@ Maintainer of SpiderMonkey's {riscv,loong}64 JIT backends.
 #small-v-skip()
 
 #link("https://github.com/CSharperMantle/valgrind-loongarch64")[*CSharperMantle/valgrind-loongarch64*] -- C \
-Extended prior Valgrind to LoongArch ports with SIMD Extension (LSX) and Advanced SIMD Extension (LASX) instrumentation capabilities.  #h(1fr) 2026/01
+Extended prior Valgrind to LoongArch ports with SIMD Extension (LSX) and Advanced SIMD Extension (LASX) parsing, instrumentation, and processing capabilities.  #h(1fr) 2026/01
 
 #small-v-skip()
 
