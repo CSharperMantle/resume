@@ -64,8 +64,8 @@
 
 #continues-cv-page()
 
-he/him | #link("mailto:me@csmantle.top")[me\@csmantle.top] | #link("https://csmantle.top")[csmantle.top] |
-#link("https://github.com/CSharperMantle")[github.com/CSharperMantle] | #link("https://www.linkedin.com/in/rong-bao-a9931a336")[in/rong-bao-a9931a336]
+he/him | #link("mailto:me@csmantle.top")[me\@csmantle.top] | #link("https://csmantle.top")[csmantle.top] | #fa-icon("github")
+#link("https://github.com/CSharperMantle")[github.com/CSharperMantle] | #fa-icon("linkedin") #link("https://www.linkedin.com/in/rong-bao-a9931a336")[in/rong-bao-a9931a336]
 
 #large-v-skip()
 
