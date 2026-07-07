@@ -86,7 +86,7 @@ Experienced with x86 ISA and assembly-level development, familiar with RISC-styl
 #small-v-skip()
 
 #skill-header[Infosec] \
-Skilled in reverse engineering, binary vulnerability analysis, and embedded systems security. Have experience with software development and analysis on multiple architectures, including x86-64, AArch64, LA64 and RV64.
+Skilled in reverse engineering, binary vulnerability analysis, and embedded systems security. Have experience with software development and analysis on multiple architectures, including x86-64, LA64 and RV64.
 - #link("https://ctftime.org/event/2276")[D#super[3]CTF 2024] *RE Challenges Writer* #h(1fr) 2024/04
 - #link("http://www.ciscn.cn/announcement/view/357")[17th National Collegiate Infosec Competition] #sym.dot.c *Team Third Prize* #h(1fr) 2024/07
 - #link("https://flare-on.com/2024.html#:~:text=Rong%20Bao")[FLARE-On 11] Reverse Engineering Challenge *Finisher \#168* #h(1fr) 2024/09

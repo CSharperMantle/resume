@@ -96,7 +96,7 @@
 #small-v-skip()
 
 #skill-header[信息安全] \
-有一定逆向工程、二进制漏洞分析、嵌入式安全能力，较为熟悉 x86、ARM/AArch64、RISC-V 与多种嵌入式平台的编程与软件分析。
+有一定逆向工程、二进制漏洞分析、嵌入式安全能力，较为熟悉 x86、龙架构、RISC-V 与多种嵌入式平台的编程与软件分析。
 - #link("https://ctftime.org/event/2276")[D#super[3]CTF 2024] 逆向工程方向*赛题命制* #h(1fr) 2024/04
 - #link("http://www.ciscn.cn/announcement/view/357")[第十七届全国大学生信息安全竞赛] #sym.dot.c 创新实践能力赛 *团队三等奖* #h(1fr) 2024/07
 - #link("https://flare-on.com/2024.html#:~:text=Rong%20Bao")[FLARE-On 11] Reverse Engineering Challenge *Finisher \#168* #h(1fr) 2024/09
