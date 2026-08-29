@@ -144,6 +144,11 @@ SpiderMonkey {riscv,loong}64 JIT 编译器后端维护者。
 
 #small-v-skip()
 
+#link("https://github.com/CSharperMantle/loonglint")[*CSharperMantle/loonglint*] --- C++ \
+实现了一种基于 LLVM 的 LoongArch 二进制窥孔优化工具，用于发现常见的待优化指令模式。该工具已应用于 SpiderMonkey、LLVM/Clang 等编译系统的开发与调优中。#h(1fr) 2026/08
+
+#small-v-skip()
+
 #link("https://github.com/CSharperMantle/valgrind-loongarch64")[*CSharperMantle/valgrind-loongarch64*] --- C \
 为前人的 Valgrind LoongArch 移植版本新增了 SIMD 扩展（LSX）与高级 SIMD 扩展（LASX）指令的解析、插桩与审计功能。 #h(1fr) 2026/01
 

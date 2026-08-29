@@ -139,6 +139,11 @@ Maintainer of SpiderMonkey's {riscv,loong}64 JIT backends.
 
 #small-v-skip()
 
+#link("https://github.com/CSharperMantle/loonglint")[*CSharperMantle/loonglint*] --- C++ \
+Implemented an LLVM-based peephole linter for LoongArch binaries to discover common under-optimizations. Used extensively on SpiderMonkey and LLVM/Clang itself. #h(1fr) 2026/08
+
+#small-v-skip()
+
 #link("https://github.com/CSharperMantle/valgrind-loongarch64")[*CSharperMantle/valgrind-loongarch64*] --- C \
 Extended prior Valgrind to LoongArch ports with SIMD Extension (LSX) and Advanced SIMD Extension (LASX) parsing, instrumentation, and processing capabilities.  #h(1fr) 2026/01
 
