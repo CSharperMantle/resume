@@ -81,7 +81,8 @@ Computer Science, Zhuoyue Honors School \
 #skill-header[Computer systems] \
 Experienced with x86 ISA and assembly-level development, familiar with RISC-style ISAs, and has hands-on experience with RISC-V and LoongArch micro-architectural implementation
 - #link("https://ysyx.oscc.cc/en/")["One Student, One Chip" Program], Cohort 6, Group B (former).\ Student ID: 23060288. (#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[log], #link("https://github.com/CSharperMantle/ics2023")[repo]) #h(1fr) 2024--2025
-- #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] CPU Designing Contest "Loongson Cup" *Team Third Prize* #h(1fr) 2025/08
+- #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] CPU Design Contest "Loongson Cup" *Team Third Prize* #h(1fr) 2025/08
+- #link("https://gitlab.eduxiji.net/csc1/nscscc/compiler2026/-/blob/1bef5268578fdccef4e60c87dda18ac17b09db4c/2026%E5%B9%B4%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E8%83%BD%E5%8A%9B%E5%A4%A7%E8%B5%9B%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E8%B5%9B_%E5%8D%8E%E4%B8%BA%E6%AF%95%E6%98%87%E6%9D%AF_%E5%85%A8%E5%9B%BD%E6%80%BB%E5%86%B3%E8%B5%9B%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA-2026.8.22.pdf")[NSCSCC 2026] Compiler System Design Contest "Bisheng Cup" Challenges Track *Second Prize* #h(1fr) 2026/08
 
 #small-v-skip()
 
@@ -118,14 +119,14 @@ Finished successfully as a mentee of #link("https://aosc.io/about")[Anthon Open 
 
 #small-v-skip()
 
-#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] --- C++, Python \
+#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] --- C++, Python and others \
 Maintainer of SpiderMonkey's {riscv,loong}64 JIT backends.
 - Granted #link("https://bugzil.la/2020656")[Level 3 Commit Access] as an active contributor #h(1fr) 2026/03
 - Current focus: #link("https://bugzil.la/2023167")[porting the Gecko Profiler to LA64 and RV64] #h(1fr) 2026/03--
 
 #small-v-skip()
 
-#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++, Assembly
+#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++, Assembly and others
 - #link("https://github.com/llvm/llvm-project/pull/195595")[Implemented] stack clash protection (SCP) on LoongArch #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/195456")[Fixed] SCP code generations bugs on RISC-V #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/206321")[Reported] and #link("https://github.com/llvm/llvm-project/pull/196940")[fixed] various relocation bugs in LoongArch backend and LLD #h(1fr) 2026/05--2026/07

@@ -91,7 +91,8 @@
 #skill-header[计算机系统] \
 对 x86 ISA 与汇编级开发有一定经验，对 RISC 风格 ISA 与其代码生成、机器相关优化有一定了解，有 RISC-V 与 LoongArch 微架构实现经验。
 - 前第六期“一生一芯” B 组学员，学号：23060288（#link("https://docs.qq.com/sheet/DWmR1dHJ5eUZkaUpW")[学习记录]，#link("https://github.com/CSharperMantle/ics2023")[代码仓库]） #h(1fr) 2024--2025
-- #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] “龙芯杯” *团队赛三等奖* #h(1fr) 2025/08
+- #link("https://www.nscscc.com/?p=794")[NSCSCC 2025] CPU 设计赛“龙芯杯” *团队赛三等奖* #h(1fr) 2025/08
+- #link("https://gitlab.eduxiji.net/csc1/nscscc/compiler2026/-/blob/1bef5268578fdccef4e60c87dda18ac17b09db4c/2026%E5%B9%B4%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E8%83%BD%E5%8A%9B%E5%A4%A7%E8%B5%9B%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E8%B5%9B_%E5%8D%8E%E4%B8%BA%E6%AF%95%E6%98%87%E6%9D%AF_%E5%85%A8%E5%9B%BD%E6%80%BB%E5%86%B3%E8%B5%9B%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA-2026.8.22.pdf")[NSCSCC 2026] 编译系统设计赛“毕昇杯”挑战赛道 *二等奖* #h(1fr) 2026/08
 
 #small-v-skip()
 
@@ -136,7 +137,7 @@ SpiderMonkey {riscv,loong}64 JIT 编译器后端维护者。
 
 #small-v-skip()
 
-#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++、汇编语言
+#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++、汇编语言等
 - #link("https://github.com/llvm/llvm-project/pull/195595")[实现了] LoongArch 上的栈冲突保护（SCP）功能 #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/195456")[修复了] RISC-V 上 SCP 中的一处代码生成错误 #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/206321")[发现]、#link("https://github.com/llvm/llvm-project/pull/196940")[修复]了 LoongArch 后端与 LLD 中的若干重定位处理错误 #h(1fr) 2026/05--2026/07
