@@ -5,7 +5,7 @@
 #show: show-cn-fakebold
 
 #set text(
-  size: 11pt,
+  size: 8pt,
   font: (
     (name: "Noto Serif CJK SC", covers: "latin-in-cjk"),
     "Source Han Serif",
@@ -15,9 +15,9 @@
 
 #set underline(evade: false)
 
-#let large-v-skip() = v(1em)
+#let large-v-skip() = v(0.3em)
 
-#let small-v-skip() = v(0.5em)
+#let small-v-skip() = v(0.2em)
 
 #show link: it => {
   underline(it)
@@ -37,7 +37,7 @@
   v(0.25em)
 }
 
-#set page(margin: (x: 1.5cm, y: 1.5cm))
+#set page(margin: (x: 0.75cm, y: 0.75cm))
 
 #set par(justify: true)
 
@@ -71,8 +71,6 @@
 )
 
 = 鲍溶
-
-#continues-cv-page()
 
 #link("mailto:me@csmantle.top")[me\@csmantle.top] | #link("https://csmantle.top")[csmantle.top] | #fa-icon("github")
 #link("https://github.com/CSharperMantle")[github.com/CSharperMantle] | #fa-icon("linkedin") #link("https://www.linkedin.com/in/rong-bao-a9931a336")[in/rong-bao-a9931a336]
@@ -141,6 +139,7 @@ SpiderMonkey {riscv,loong}64 JIT 编译器后端维护者。
 - #link("https://github.com/llvm/llvm-project/pull/195595")[实现了] LoongArch 上的栈冲突保护（SCP）功能 #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/195456")[修复了] RISC-V 上 SCP 中的一处代码生成错误 #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/206321")[发现]、#link("https://github.com/llvm/llvm-project/pull/196940")[修复]了 LoongArch 后端与 LLD 中的若干重定位处理错误 #h(1fr) 2026/05--2026/07
+- 为 LoongArch 反汇编器#link("https://github.com/llvm/llvm-project/pull/218946")[添加了]汇编语法高亮支持，#link("https://github.com/llvm/llvm-project/pull/217971")[实现了]符号化跳转目标功能 #h(1fr) 2026/08--2026/09
 
 #small-v-skip()
 
@@ -151,7 +150,7 @@ SpiderMonkey {riscv,loong}64 JIT 编译器后端维护者。
 #small-v-skip()
 
 #link("https://github.com/CSharperMantle/loonglint")[*CSharperMantle/loonglint*] --- C++ \
-实现了一种基于 LLVM 的 LoongArch 二进制窥孔优化工具，用于发现常见的待优化指令模式。该工具已应用于 SpiderMonkey、LLVM/Clang 等编译系统的开发与调优中。#h(1fr) 2026/08
+实现了一种基于 LLVM 的 LoongArch 架构二进制窥孔优化工具，用于发现常见的待优化指令模式，可快速扩展至 RISC-V 等其他架构。该工具已应用于 SpiderMonkey、LLVM/Clang 等编译系统的开发与调优中。#h(1fr) 2026/08
 
 #small-v-skip()
 

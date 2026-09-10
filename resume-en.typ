@@ -2,12 +2,12 @@
 #import "@preview/linguify:0.5.0": *
 
 #set text(
-  size: 11pt,
+  size: 8pt,
 )
 
-#let large-v-skip() = v(1em)
+#let large-v-skip() = v(0.3em)
 
-#let small-v-skip() = v(0.5em)
+#let small-v-skip() = v(0.2em)
 
 #show link: it => {
   underline(it)
@@ -27,7 +27,7 @@
   v(0.25em)
 }
 
-#set page(margin: (x: 1.5cm, y: 1.5cm))
+#set page(margin: (x: 0.75cm, y: 0.75cm))
 
 #set par(justify: true)
 
@@ -61,8 +61,6 @@
 )
 
 = Rong Bao
-
-#continues-cv-page()
 
 he/him | #link("mailto:me@csmantle.top")[me\@csmantle.top] | #link("https://csmantle.top")[csmantle.top] | #fa-icon("github")
 #link("https://github.com/CSharperMantle")[github.com/CSharperMantle] | #fa-icon("linkedin") #link("https://www.linkedin.com/in/rong-bao-a9931a336")[in/rong-bao-a9931a336]
@@ -119,17 +117,18 @@ Finished successfully as a mentee of #link("https://aosc.io/about")[Anthon Open 
 
 #small-v-skip()
 
-#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] --- C++, Python and others \
+#link("https://github.com/mozilla-firefox/firefox")[*Mozilla Firefox*] --- C++, Python, and others \
 Maintainer of SpiderMonkey's {riscv,loong}64 JIT backends.
 - Granted #link("https://bugzil.la/2020656")[Level 3 Commit Access] as an active contributor #h(1fr) 2026/03
 - Current focus: #link("https://bugzil.la/2023167")[porting the Gecko Profiler to LA64 and RV64] #h(1fr) 2026/03--
 
 #small-v-skip()
 
-#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++, Assembly and others
+#link("https://github.com/llvm/llvm-project/")[*The LLVM Project*] --- C++, Assembly, and others
 - #link("https://github.com/llvm/llvm-project/pull/195595")[Implemented] stack clash protection (SCP) on LoongArch #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/195456")[Fixed] SCP code generations bugs on RISC-V #h(1fr) 2026/05
 - #link("https://github.com/llvm/llvm-project/pull/206321")[Reported] and #link("https://github.com/llvm/llvm-project/pull/196940")[fixed] various relocation bugs in LoongArch backend and LLD #h(1fr) 2026/05--2026/07
+- #link("https://github.com/llvm/llvm-project/pull/218946")[Implemented] syntax highlighting for the LoongArch disassembler, and #link("https://github.com/llvm/llvm-project/pull/217971")[added] symbolization support for jump targets #h(1fr) 2026/08--2026/09
 
 #small-v-skip()
 
@@ -140,7 +139,7 @@ Maintainer of SpiderMonkey's {riscv,loong}64 JIT backends.
 #small-v-skip()
 
 #link("https://github.com/CSharperMantle/loonglint")[*CSharperMantle/loonglint*] --- C++ \
-Implemented an LLVM-based peephole linter for LoongArch binaries to discover common under-optimizations. Used extensively on SpiderMonkey and LLVM/Clang itself. #h(1fr) 2026/08
+Implemented an LLVM-based peephole linter for LoongArch binaries to discover common optimization opportunities, while allowing smooth extension to other architectures including RISC-V. Used extensively on SpiderMonkey and LLVM/Clang itself. #h(1fr) 2026/08
 
 #small-v-skip()
 
